@@ -32,6 +32,7 @@
 
             <div class="profile-info">
                 <p><strong>Email:</strong> contohuser@gmail.com</p>
+                <p><strong>No telp: 0821-3456-7890</strong></p>
                 <p><strong>NIM:</strong> 2405551969</p>
             </div>
 
