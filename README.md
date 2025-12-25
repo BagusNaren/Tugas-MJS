@@ -7,19 +7,19 @@ Mata Kuliah: Pemrograman Internet (PROGNET)
 
 Project ini merupakan aplikasi peminjaman barang kampus yang dikembangkan secara kolaboratif oleh anggota tim.
 Semua kolaborator dapat membantu menambah fitur, memperbaiki bug, atau memperbaiki tampilan antarmuka.
-
-👥 Kolaborator
+ddaadu
 
 Agar dapat melakukan push ke repository ini, pastikan Anda sudah ditambahkan sebagai Collaborator oleh pemilik repository:
 
-Pemilik repo: https://github.com/reamura87
+Pemilik repo: https://github.com/BagusNaren
 
 🛠 Panduan Git untuk Kolaborator
+
 1. Clone repository
 
 Untuk mendownload project ke komputer:
 
-git clone https://github.com/reamura87/silih-prognet-D.git
+git clone https://github.com/BagusNaren/Tugas-MJS
 
 cd silih-prognet-D
 
