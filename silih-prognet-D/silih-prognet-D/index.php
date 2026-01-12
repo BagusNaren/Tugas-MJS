@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SILIH - Website Peminjaman Barang</title>
+    <title>SILIH - Website Peminjaman</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
         <div class="logo">SILIH</div>
-        
+
         <nav>
             <a href="#kategori">Kategori</a>
             <a href="peminjaman/list.php">Peminjaman</a>
@@ -24,7 +26,7 @@
         <div class="header-icons">
             <a href="#cart" title="Keranjang">🛒</a>
             <a href="profile.php" title="Profil">👤</a>
-            <a href="login.php" title="Login">Login</a> 
+            <a href="login.php" title="Login">Login</a>
         </div>
     </header>
 
@@ -55,4 +57,5 @@
         <p>&copy; 2025 SILIH - Sistem Informasi Layanan & Inventaris Himpunan</p>
     </footer>
 </body>
+
 </html>
