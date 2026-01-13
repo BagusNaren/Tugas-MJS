@@ -17,7 +17,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.SSH_HOST }}
-          username: awshi
+          username: "awshi"
           key: ${{ secrets.SSH_KEY }}
           port: 2121
           script: |
