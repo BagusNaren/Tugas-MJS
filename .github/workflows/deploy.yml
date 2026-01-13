@@ -21,6 +21,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 2121
           script: |
-            cd /var/www/web4
+            cd /var/www/web5
             git pull origin main
     
