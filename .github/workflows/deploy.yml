@@ -17,6 +17,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            whoami
-            hostname
-            pwd
+            cd /var/www/web1
+            git pull origin main
+            sudo systemctl reload nginx
+            sudo systemctl restart php8.2-fpm
