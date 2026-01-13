@@ -23,5 +23,4 @@ jobs:
           script: |
             cd /var/www/web5
             git pull origin main
-
-            
+  
