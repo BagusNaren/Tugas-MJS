@@ -20,7 +20,7 @@
 </header>
 
 <section class="contact-section">
-    <h1>Kontak Kami</h1>
+    <h1>Kontak Himpunan</h1>
     <p class="subtitle">Hubungi pihak terkait untuk informasi peminjaman fasilitas Himpunan</p>
 
     <div class="contact-container">
