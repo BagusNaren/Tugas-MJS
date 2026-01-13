@@ -22,4 +22,6 @@ jobs:
           port: 2121
           script: |
             cd /var/www/web1
-            git pull origin main
+            
+            git fetch origin main
+            git reset --hard origin/main
