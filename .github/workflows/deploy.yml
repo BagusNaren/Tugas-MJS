@@ -1,4 +1,4 @@
-name: Auto Deploy to Server
+name: Deploy to Server
 
 on:
   push:
@@ -10,14 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: SSH Deploy
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
+          host: ${{ secrets.SERVER_HOST }}
+          username: awshi
           key: ${{ secrets.SSH_KEY }}
+          port: 2121
           script: |
             cd /var/www/web1
             git pull origin main
-            sudo systemctl reload nginx
-            sudo systemctl restart php8.2-fpm
