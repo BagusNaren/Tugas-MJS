@@ -24,4 +24,3 @@ jobs:
             cd /var/www/web5
             git pull origin main
   
-            
