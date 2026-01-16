@@ -22,7 +22,7 @@
     </header>
 
 <section class="contact-section">
-    <h1>Himpunan Kami</h1>
+    <h1>Kontak Himpunan</h1>
     <p class="subtitle">Hubungi pihak Himpunan Teknologi Informasi untuk informasi peminjaman fasilitas Himpunan</p>
 
         <div class="contact-container">
