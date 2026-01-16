@@ -25,3 +25,5 @@ jobs:
               git config --global --add safe.directory /var/www/web9
               git fetch origin main
               git reset --hard origin/main
+    
+              
