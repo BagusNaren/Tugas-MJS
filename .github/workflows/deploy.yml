@@ -21,9 +21,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 2121
           script: |
-              cd /var/www/web9
-              git config --global --add safe.directory /var/www/web9
-              git fetch origin main
-              git reset --hard origin/main
-    
-              
+              cd /var/www/web10
+              git pull origin main
