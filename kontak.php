@@ -29,7 +29,7 @@
 
             <div class="contact-card">
                 <img src="assets/img/kaprodi.jpg" alt="Foto Kaprodi">
-                <h2>Bapak Kaprodi</h2>
+                <h2>Bapak Koprodi Teknologi Informasi</h2>
                 <p class="role">Kepala Program Studi</p>
                 <p>📞 0812-9999-9999</p>
                 <p>📧 kaprodi@unud.ac.id</p>
@@ -37,7 +37,7 @@
 
             <div class="contact-card">
                 <img src="assets/img/kethim.jpg" alt="Foto Ketua Himpunan">
-                <h2>Ketua Himpunan</h2>
+                <h2>Ketua Himpunan Teknologi Informasi</h2>
                 <p class="role">Ketua Himpunan Mahasiswa TI</p>
                 <p>📞 0821-8080-9090</p>
                 <p>📧 kahim@unud.ac.id</p>
